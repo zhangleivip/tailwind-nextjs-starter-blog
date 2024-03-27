@@ -59,6 +59,7 @@ function createTagCount(allBlogs) {
       })
     }
   })
+  console.log(tagCount)
   writeFileSync('./app/tag-data.json', JSON.stringify(tagCount))
 }
 
